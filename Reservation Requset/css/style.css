@@ -1,0 +1,40 @@
+body {
+    margin: 0px auto;
+    background-color: white;
+    width: 600px;
+    border: 3px solid blue;
+    padding: 10px 20px;
+}
+
+fieldset {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 10px;
+}
+
+legend {
+    color: blue;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+label {
+    float: left;
+    width: 90px;
+}
+
+input,
+select {
+    margin-left: 1em;
+    margin-bottom: 10px;
+    margin-right: 1em;
+    display: block;
+}
+
+.preference input {
+    display: inline-block;
+}
+
+.Contact input {
+    display: block;
+}

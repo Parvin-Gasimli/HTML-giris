@@ -1,0 +1,124 @@
+    body {
+        font-family: 'Montserrat', sans-serif;
+        height: 2000px;
+        background-color: wheat;
+    }
+    
+    .left {
+        width: 50%;
+        display: inline;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+    
+    .left a img {
+        border-radius: 19px;
+    }
+    
+    .title {
+        color: #696969;
+        background-color: white;
+        margin-bottom: 52px;
+        margin-right: 170px;
+    }
+    
+    .title h1 {
+        text-align: center;
+        color: #696969;
+        font-size: 31px;
+        background-color: white;
+        font-weight: 500;
+        position: relative;
+    }
+    
+    .title h1 ::before {
+        content: "";
+        position: absolute;
+        width: 60px;
+        height: 3px;
+        background-image: -webkit-gradient(linear, left top, right top, from(#5192e1), color-stop(51%, #23ced5), to(#5192e1));
+        bottom: -7px;
+    }
+    
+    .title h1 span {
+        font-size: 25px;
+    }
+    
+    .title p {
+        padding-left: 284px;
+        margin-bottom: 36px;
+        width: 70%;
+        margin: 0px auto;
+        line-height: 25px;
+    }
+    
+    .left img {
+        border: 1px solid black;
+        width: 35%;
+        height: 379px;
+    }
+    
+    .container {
+        width: 100%;
+        height: 800px;
+        padding-right: 81px;
+        width: 100%;
+        height: 800px;
+        padding-left: 81px;
+    }
+    
+    .formgroup {
+        margin-bottom: 44px;
+    }
+    
+    .formgroup input {
+        width: 100%;
+        background: border-box;
+        height: 35px;
+    }
+    
+    .right {
+        /* padding: 0px 35px;
+            margin: 0px auto; */
+        width: 49%;
+        display: inline-block;
+        padding: 73px;
+        box-sizing: border-box;
+        vertical-align: top;
+        margin-top: -92px;
+        padding-left: 118px;
+    }
+    
+    .right h3 {
+        text-align: inherit;
+        text-size-adjust: 50px;
+    }
+    
+    .para p a {
+        text-decoration: none;
+    }
+    
+    .formgroup p a {
+        text-decoration: none;
+        padding-left: 49px;
+    }
+    
+    .formgroup p {
+        display: inline-block;
+    }
+    
+    .formgroup button {
+        cursor: pointer;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        border-radius: 28px;
+        color: white;
+        border: 1px solid;
+        width: 116px;
+        height: 37px;
+        background-image: -webkit-gradient(linear, left top, right top, from(#5192e1), color-stop(51%, #23ced5), to(#5192e1));
+    }
+    
+    .formgroup button:hover {
+        color: rgb(45, 119, 153);
+    }
